@@ -27,16 +27,11 @@ export default function StackProgress() {
             })}
           </div>
 
-          <div className="skills-image">
-            {illustration.animated ? (
+          {illustration.animated && (
+            <div className="skills-image">
               <DisplayLottie animationData={Build} />
-            ) : (
-              <img
-                alt="Skills"
-                src={require("../../assets/images/skill.svg")}
-              />
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </Fade>
     );
