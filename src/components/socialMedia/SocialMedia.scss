@@ -1,7 +1,7 @@
 @import "../../_globalColor";
 
 .social-media-div {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .icon-button {
@@ -10,20 +10,20 @@
 
 .icon-button i {
   color: $textColorDark;
-  border-radius: 2.6rem;
+  border-radius: 3.9rem;
   cursor: pointer;
   display: inline-block;
-  font-size: 1.3rem;
-  height: 2.6rem;
-  line-height: 2.6rem;
-  margin: 0 5px;
+  font-size: 1.95rem;
+  height: 3.9rem;
+  line-height: 3.9rem;
+  margin: 0 7.5px;
   position: relative;
   text-align: center;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 2.6rem;
+  width: 3.9rem;
   margin-bottom: 10px;
   transition: 0.2s ease-in;
 }
