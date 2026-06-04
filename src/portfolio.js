@@ -160,34 +160,55 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Featured Personal Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/job-visualizer.png"), 
+      projectName: "Job Visualizer",
+      projectDesc: "Cross-platform desktop application built in Go for importing, analyzing, and visualizing job data from Excel files with interactive mapping and charts.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on GitHub",
+          url: "https://github.com/goodwin-sam/job-visualizer"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/concurrent-file-processor.png"),
+      projectName: "Concurrent File Processor",
+      projectDesc: "High-performance Java desktop application that processes multiple text files concurrently using custom work-stealing thread pools.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/goodwin-sam/concurrent-file-processor"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/smart-tello-follower.png"),
+      projectName: "Smart Tello Follower",
+      projectDesc: "Real-time computer vision system using Python, OpenCV, and MediaPipe to enable autonomous face tracking and gesture-controlled flight with a DJI Tello drone.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/goodwin-sam/smart-tello-follower"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/enviro-sensor-hub.png"),
+      projectName: "Environment Sensor Hub",
+      projectDesc: "Arduino-based C++ environmental monitoring system that reads multiple sensors and controls fan, buzzer, and LCD display with smart threshold-based responses.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/goodwin-sam/enviro-sensor-hub"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
