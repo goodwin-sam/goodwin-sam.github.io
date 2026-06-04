@@ -120,32 +120,31 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Property Manager",
+      company: "Private Landlord",
+      companylogo: require("./assets/images/property-manager-logo.png"), // You can change this
+      date: "Summer 2020 – Present",
+      desc: "Managed day-to-day operations of multiple residential rental properties while handling maintenance, tenant relations, and administrative tasks.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Responded to tenant requests and critical issues (including nights/weekends) with high reliability",
+        "Performed hands-on troubleshooting and repairs for plumbing, electrical, and general maintenance",
+        "Managed rental payments, record keeping, vendor coordination, and scheduling"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Teaching Assistant & Tutor",
+      company: "Curry College",
+      companylogo: require("./assets/images/curry-college-logo.png"),
+      date: "January 2019 – May 2020",
+      desc: "Provided academic support to undergraduate students in Chemistry and Biology courses.",
+      descBullets: [
+        "Delivered one-on-one and small group tutoring sessions, helping students master complex scientific concepts",
+        "Developed strong communication and problem-solving skills by breaking down difficult material",
+        "Assisted faculty with study materials and group review sessions"
+      ]
     }
   ]
 };
