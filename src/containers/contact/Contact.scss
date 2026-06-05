@@ -20,15 +20,18 @@
 .contact-detail,
 .contact-detail-email {
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   color: $subTitle;
-  text-decoration: none;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .contact-detail:hover,
 .contact-detail-email:hover {
   color: $textColor;
+  text-decoration: underline;
   text-shadow: 2px 1px 2px $contactDetailHoverTS;
   transition: all 0.3s;
 }
