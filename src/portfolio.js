@@ -24,22 +24,17 @@ const greeting = {
     "Magna Cum Laude Computer Science graduate passionate about systems programming, computer vision, and IoT. I love designing clean, efficient, and well-documented solutions using Go, Java, Python, and C++."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://raw.githubusercontent.com/goodwin-sam/Resume/main/Sam-Goodwin_Resume.pdf",
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/goodwin-sam",
+  linkedin: "https://www.linkedin.com/in/goodwin-sam",
+  gmail: "sam@samgoodwin.dev",
+  HackerRank: "https://www.hackerrank.com/profile/samgoodwin",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -47,14 +42,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Passionate about writing clean, well-structured code and building high-performance systems in Go, Java, Python, and C++",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Building scalable backend systems and concurrent applications using Go and Java"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Creating real-time computer vision systems and autonomous IoT applications"
+    ),
+    emoji(
+      "⚡ Developing cross-platform desktop tools and data visualization solutions"
     )
   ],
 
@@ -62,58 +60,24 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    {skillName: "golang", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "java", fontAwesomeClassname: "fab fa-java"},
+    {skillName: "c++", fontAwesomeClassname: "fab fa-cuttlefish"},
+    {skillName: "bash", fontAwesomeClassname: "fas fa-terminal"},
+
+    {skillName: "docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "sql", fontAwesomeClassname: "fas fa-database"},
+
+    {skillName: "opencv", fontAwesomeClassname: "fas fa-eye"},
+    {skillName: "mediapipe", fontAwesomeClassname: "fas fa-hand-paper"}, // or fas fa-camera
+    {skillName: "linux", fontAwesomeClassname: "fab fa-linux"},
+    {skillName: "raspberry-pi", fontAwesomeClassname: "fab fa-raspberry-pi"},
+    {skillName: "arduino", fontAwesomeClassname: "fas fa-microchip"},
+
+    {skillName: "fyne", fontAwesomeClassname: "fas fa-desktop"}, // GUI
+    {skillName: "javafx", fontAwesomeClassname: "fas fa-window-maximize"}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -124,23 +88,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Bridgewater State University",
+      logo: require("./assets/images/Bridgewater-State-University-logo.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "2021 - 2025",
+      desc: "Magna Cum Laude (GPA: 3.8)",
+      descBullets: [
+        "Consistently recognized on Dean’s List throughout entire program",
+        "Developed strong foundation in Golang, Java, Python, C++, and Bash/Shell",
+        "Focused on building practical systems, IoT applications, and computer vision projects"
+      ]
     }
   ]
 };
@@ -148,7 +105,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -169,32 +126,31 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Property Manager",
+      company: "Private Landlord",
+      companylogo: require("./assets/images/property-manager-logo.png"), // You can change this
+      date: "Summer 2020 – Present",
+      desc: "Managed day-to-day operations of multiple residential rental properties while handling maintenance, tenant relations, and administrative tasks.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Responded to tenant requests and critical issues (including nights/weekends) with high reliability",
+        "Performed hands-on troubleshooting and repairs for plumbing, electrical, and general maintenance",
+        "Managed rental payments, record keeping, vendor coordination, and scheduling"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Teaching Assistant & Tutor",
+      company: "Curry College",
+      companylogo: require("./assets/images/curry-college-logo.png"),
+      date: "January 2019 – May 2020",
+      desc: "Provided academic support to undergraduate students in Chemistry and Biology courses.",
+      descBullets: [
+        "Delivered one-on-one and small group tutoring sessions, helping students master complex scientific concepts",
+        "Developed strong communication and problem-solving skills by breaking down difficult material",
+        "Assisted faculty with study materials and group review sessions"
+      ]
     }
   ]
 };
@@ -210,95 +166,119 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Featured Personal Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/job-visualizer.png"),
+      projectName: "Job Visualizer",
+      projectDesc:
+        "Cross-platform desktop application built in Go for importing, analyzing, and visualizing job data from Excel files with interactive mapping and charts.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on GitHub",
+          url: "https://github.com/goodwin-sam/job-visualizer"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/concurrent-file-processor.png"),
+      projectName: "Concurrent File Processor",
+      projectDesc:
+        "High-performance Java desktop application that processes multiple text files concurrently using custom work-stealing thread pools.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/goodwin-sam/concurrent-file-processor"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/smart-tello-follower.png"),
+      projectName: "Smart Tello Follower",
+      projectDesc:
+        "Real-time computer vision system using Python, OpenCV, and MediaPipe to enable autonomous face tracking and gesture-controlled flight with a DJI Tello drone.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/goodwin-sam/smart-tello-follower"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/enviro-sensor-hub.png"),
+      projectName: "Environment Sensor Hub",
+      projectDesc:
+        "Arduino-based C++ environmental monitoring system that reads multiple sensors and controls fan, buzzer, and LCD display with smart threshold-based responses.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/goodwin-sam/enviro-sensor-hub"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Certifications 🏆"),
+  subtitle: "HackerRank Skills Certifications",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "SQL",
+      subtitle: "Advanced • Intermediate • Basic",
+      image: require("./assets/images/SQL (Advanced) Certificate.png"),
+      imageAlt: "HackerRank SQL Certifications",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certificate",
+          url: "https://www.hackerrank.com/certificates/062f1e90bd99"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Go",
+      subtitle: "Intermediate • Basic",
+      image: require("./assets/images/Go (Intermediate) Certificate.png"),
+      imageAlt: "HackerRank Go Certifications",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://www.hackerrank.com/certificates/6d76d6ec3c0c"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Java",
+      subtitle: "Basic",
+      image: require("./assets/images/Java (Basic) Certificate.png"),
+      imageAlt: "Java Basic Certification",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certificate",
+          url: "https://www.hackerrank.com/certificates/222cd2fd4445"
+        }
+      ]
+    },
+    {
+      title: "Python",
+      subtitle: "Basic",
+      image: require("./assets/images/Python (Basic) Certificate.png"),
+      imageAlt: "Python Basic Certification",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.hackerrank.com/certificates/5b8c0e135d19"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
@@ -322,7 +302,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -341,7 +321,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -354,7 +334,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,19 +349,22 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Open to software development opportunities, feel free to reach out.",
+  number: "(508) 562-1751",
+  email_address: "sam@samgoodwin.dev",
+  github: "https://github.com/goodwin-sam",
+  linkedin: "https://linkedin.com/in/goodwin-sam",
+  hackerrank: "https://hackerrank.com/profile/samgoodwin"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

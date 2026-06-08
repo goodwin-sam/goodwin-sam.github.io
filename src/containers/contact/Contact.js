@@ -49,19 +49,57 @@ export default function Contact() {
               </a>
               <br />
               <br />
+              {contactInfo.github && (
+                <>
+                  <a
+                    className="contact-detail"
+                    href={contactInfo.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub: {contactInfo.github.replace(/^https?:\/\//, "")}
+                  </a>
+                  <br />
+                  <br />
+                </>
+              )}
+              {contactInfo.linkedin && (
+                <>
+                  <a
+                    className="contact-detail"
+                    href={contactInfo.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LinkedIn: {contactInfo.linkedin.replace(/^https?:\/\//, "")}
+                  </a>
+                  <br />
+                  <br />
+                </>
+              )}
+              {contactInfo.hackerrank && (
+                <>
+                  <a
+                    className="contact-detail"
+                    href={contactInfo.hackerrank}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    HackerRank:{" "}
+                    {contactInfo.hackerrank.replace(/^https?:\/\//, "")}
+                  </a>
+                  <br />
+                  <br />
+                </>
+              )}
               <SocialMedia />
             </div>
           </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
+          {illustration.animated && (
+            <div className="contact-image-div">
               <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </Fade>

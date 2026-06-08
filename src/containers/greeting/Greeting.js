@@ -42,11 +42,22 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={greeting.resumeLink}
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
+                  </a>
+                )}
+                {greeting.resumeLink && (
+                  <a
+                    href={`https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(
+                      greeting.resumeLink
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="download-link-button"
+                  >
+                    <Button text="View my resume" />
                   </a>
                 )}
               </div>
