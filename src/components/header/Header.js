@@ -23,6 +23,11 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+  const resumeUrl = greeting.resumeLink
+    ? `https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(
+        greeting.resumeLink
+      )}`
+    : "#resume";
 
   return (
     <Headroom>
@@ -53,12 +58,12 @@ function Header() {
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">Certifications</a>
             </li>
           )}
           {viewBlog && (
@@ -73,7 +78,13 @@ function Header() {
           )}
           {viewResume && (
             <li>
-              <a href="#resume">Resume</a>
+              <a
+                href={resumeUrl}
+                target={greeting.resumeLink ? "_blank" : undefined}
+                rel={greeting.resumeLink ? "noopener noreferrer" : undefined}
+              >
+                Resume
+              </a>
             </li>
           )}
           <li>
