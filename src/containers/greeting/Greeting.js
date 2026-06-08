@@ -50,7 +50,9 @@ export default function Greeting() {
                 )}
                 {greeting.resumeLink && (
                   <a
-                    href={`https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(greeting.resumeLink)}`}
+                    href={`https://mozilla.github.io/pdf.js/web/viewer.html?file=${encodeURIComponent(
+                      greeting.resumeLink
+                    )}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="download-link-button"

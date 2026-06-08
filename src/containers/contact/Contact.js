@@ -85,7 +85,8 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    HackerRank: {contactInfo.hackerrank.replace(/^https?:\/\//, "")}
+                    HackerRank:{" "}
+                    {contactInfo.hackerrank.replace(/^https?:\/\//, "")}
                   </a>
                   <br />
                   <br />

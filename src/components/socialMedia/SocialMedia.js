@@ -116,7 +116,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {(socialMediaLinks.hackerrank || socialMediaLinks.HackerRank) ? (
+      {socialMediaLinks.hackerrank || socialMediaLinks.HackerRank ? (
         <a
           href={socialMediaLinks.hackerrank || socialMediaLinks.HackerRank}
           className="icon-button hackerrank"

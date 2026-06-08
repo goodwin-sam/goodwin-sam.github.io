@@ -24,7 +24,7 @@ const greeting = {
     "Magna Cum Laude Computer Science graduate passionate about systems programming, computer vision, and IoT. I love designing clean, efficient, and well-documented solutions using Go, Java, Python, and C++."
   ),
   resumeLink:
-    "https://raw.githubusercontent.com/goodwin-sam/Resume/main/Sam-Goodwin_Resume.pdf", 
+    "https://raw.githubusercontent.com/goodwin-sam/Resume/main/Sam-Goodwin_Resume.pdf",
   displayGreeting: true
 };
 
@@ -42,35 +42,42 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate about writing clean, well-structured code and building high-performance systems in Go, Java, Python, and C++",
+  subTitle:
+    "Passionate about writing clean, well-structured code and building high-performance systems in Go, Java, Python, and C++",
   skills: [
-    emoji("⚡ Building scalable backend systems and concurrent applications using Go and Java"),
-    emoji("⚡ Creating real-time computer vision systems and autonomous IoT applications"),
-    emoji("⚡ Developing cross-platform desktop tools and data visualization solutions")
+    emoji(
+      "⚡ Building scalable backend systems and concurrent applications using Go and Java"
+    ),
+    emoji(
+      "⚡ Creating real-time computer vision systems and autonomous IoT applications"
+    ),
+    emoji(
+      "⚡ Developing cross-platform desktop tools and data visualization solutions"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    { skillName: "golang", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "c++", fontAwesomeClassname: "fab fa-cuttlefish" },
-    { skillName: "bash", fontAwesomeClassname: "fas fa-terminal" },
-    
-    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" },
-    { skillName: "sql", fontAwesomeClassname: "fas fa-database" },
-    
-    { skillName: "opencv", fontAwesomeClassname: "fas fa-eye" },
-    { skillName: "mediapipe", fontAwesomeClassname: "fas fa-hand-paper" }, // or fas fa-camera
-    { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
-    { skillName: "raspberry-pi", fontAwesomeClassname: "fab fa-raspberry-pi" },
-    { skillName: "arduino", fontAwesomeClassname: "fas fa-microchip" },
-    
-    { skillName: "fyne", fontAwesomeClassname: "fas fa-desktop" },     // GUI
-    { skillName: "javafx", fontAwesomeClassname: "fas fa-window-maximize" }
+    {skillName: "golang", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "java", fontAwesomeClassname: "fab fa-java"},
+    {skillName: "c++", fontAwesomeClassname: "fab fa-cuttlefish"},
+    {skillName: "bash", fontAwesomeClassname: "fas fa-terminal"},
+
+    {skillName: "docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "sql", fontAwesomeClassname: "fas fa-database"},
+
+    {skillName: "opencv", fontAwesomeClassname: "fas fa-eye"},
+    {skillName: "mediapipe", fontAwesomeClassname: "fas fa-hand-paper"}, // or fas fa-camera
+    {skillName: "linux", fontAwesomeClassname: "fab fa-linux"},
+    {skillName: "raspberry-pi", fontAwesomeClassname: "fab fa-raspberry-pi"},
+    {skillName: "arduino", fontAwesomeClassname: "fas fa-microchip"},
+
+    {skillName: "fyne", fontAwesomeClassname: "fas fa-desktop"}, // GUI
+    {skillName: "javafx", fontAwesomeClassname: "fas fa-window-maximize"}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -89,9 +96,9 @@ const educationInfo = {
       descBullets: [
         "Consistently recognized on Dean’s List throughout entire program",
         "Developed strong foundation in Golang, Java, Python, C++, and Bash/Shell",
-        "Focused on building practical systems, IoT applications, and computer vision projects",
+        "Focused on building practical systems, IoT applications, and computer vision projects"
       ]
-    },
+    }
   ]
 };
 
@@ -163,9 +170,10 @@ const bigProjects = {
   subtitle: "Featured Personal Projects",
   projects: [
     {
-      image: require("./assets/images/job-visualizer.png"), 
+      image: require("./assets/images/job-visualizer.png"),
       projectName: "Job Visualizer",
-      projectDesc: "Cross-platform desktop application built in Go for importing, analyzing, and visualizing job data from Excel files with interactive mapping and charts.",
+      projectDesc:
+        "Cross-platform desktop application built in Go for importing, analyzing, and visualizing job data from Excel files with interactive mapping and charts.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -176,7 +184,8 @@ const bigProjects = {
     {
       image: require("./assets/images/concurrent-file-processor.png"),
       projectName: "Concurrent File Processor",
-      projectDesc: "High-performance Java desktop application that processes multiple text files concurrently using custom work-stealing thread pools.",
+      projectDesc:
+        "High-performance Java desktop application that processes multiple text files concurrently using custom work-stealing thread pools.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -187,7 +196,8 @@ const bigProjects = {
     {
       image: require("./assets/images/smart-tello-follower.png"),
       projectName: "Smart Tello Follower",
-      projectDesc: "Real-time computer vision system using Python, OpenCV, and MediaPipe to enable autonomous face tracking and gesture-controlled flight with a DJI Tello drone.",
+      projectDesc:
+        "Real-time computer vision system using Python, OpenCV, and MediaPipe to enable autonomous face tracking and gesture-controlled flight with a DJI Tello drone.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -198,7 +208,8 @@ const bigProjects = {
     {
       image: require("./assets/images/enviro-sensor-hub.png"),
       projectName: "Environment Sensor Hub",
-      projectDesc: "Arduino-based C++ environmental monitoring system that reads multiple sensors and controls fan, buzzer, and LCD display with smart threshold-based responses.",
+      projectDesc:
+        "Arduino-based C++ environmental monitoring system that reads multiple sensors and controls fan, buzzer, and LCD display with smart threshold-based responses.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -223,40 +234,48 @@ const achievementSection = {
       subtitle: "Advanced • Intermediate • Basic",
       image: require("./assets/images/SQL (Advanced) Certificate.png"),
       imageAlt: "HackerRank SQL Certifications",
-      footerLink: [{
-        name: "View Certificate",
-        url: "https://www.hackerrank.com/certificates/062f1e90bd99"
-      }]
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.hackerrank.com/certificates/062f1e90bd99"
+        }
+      ]
     },
     {
       title: "Go",
       subtitle: "Intermediate • Basic",
       image: require("./assets/images/Go (Intermediate) Certificate.png"),
       imageAlt: "HackerRank Go Certifications",
-      footerLink: [{
-        name: "View Certificate",
-        url: "https://www.hackerrank.com/certificates/6d76d6ec3c0c"
-      }]
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.hackerrank.com/certificates/6d76d6ec3c0c"
+        }
+      ]
     },
     {
       title: "Java",
       subtitle: "Basic",
       image: require("./assets/images/Java (Basic) Certificate.png"),
       imageAlt: "Java Basic Certification",
-      footerLink: [{ 
-        name: "View Certificate",
-        url: "https://www.hackerrank.com/certificates/222cd2fd4445" 
-      }]
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.hackerrank.com/certificates/222cd2fd4445"
+        }
+      ]
     },
     {
       title: "Python",
       subtitle: "Basic",
       image: require("./assets/images/Python (Basic) Certificate.png"),
       imageAlt: "Python Basic Certification",
-      footerLink: [{ 
-        name: "View Certificate",
-        url: "https://www.hackerrank.com/certificates/5b8c0e135d19" 
-      }]
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.hackerrank.com/certificates/5b8c0e135d19"
+        }
+      ]
     }
   ],
   display: true
