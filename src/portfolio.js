@@ -90,7 +90,6 @@ const educationInfo = {
         "Consistently recognized on Dean’s List throughout entire program",
         "Developed strong foundation in Golang, Java, Python, C++, and Bash/Shell",
         "Focused on building practical systems, IoT applications, and computer vision projects",
-        "Passionate about clean architecture, concurrent programming, and real-world system design"
       ]
     },
   ]
@@ -335,8 +334,8 @@ const contactInfo = {
   number: "(508) 562-1751",
   email_address: "sam@samgoodwin.dev",
   github: "https://github.com/goodwin-sam",
-  linkedin: "https://www.linkedin.com/in/goodwin-sam",
-  hackerrank: "https://www.hackerrank.com/profile/samgoodwin"
+  linkedin: "https://linkedin.com/in/goodwin-sam",
+  hackerrank: "https://hackerrank.com/profile/samgoodwin"
 };
 
 // Twitter Section
