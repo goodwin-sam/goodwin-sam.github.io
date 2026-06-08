@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a8e8c03.css",
+    "main.js": "/static/js/main.c8f96456.js",
+    "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
+    "static/js/487.9779af71.chunk.js": "/static/js/487.9779af71.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.3ff8cbd3.chunk.js": "/static/js/990.3ff8cbd3.chunk.js",
+    "static/media/job-visualizer.png": "/static/media/job-visualizer.3699a3a7245eb394ccc5.png",
+    "static/media/SQL (Advanced) Certificate.png": "/static/media/SQL (Advanced) Certificate.aaccdc3a1a597cd217fa.png",
+    "static/media/Go (Intermediate) Certificate.png": "/static/media/Go (Intermediate) Certificate.d32186cb8896d9574636.png",
+    "static/media/Python (Basic) Certificate.png": "/static/media/Python (Basic) Certificate.48094723e4a8be496712.png",
+    "static/media/Java (Basic) Certificate.png": "/static/media/Java (Basic) Certificate.e71b879b05344e985dc8.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/concurrent-file-processor.png": "/static/media/concurrent-file-processor.8d15e1e6785fc2d6cc14.png",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/enviro-sensor-hub.png": "/static/media/enviro-sensor-hub.1bb038dace4161cd346d.png",
+    "static/media/Bridgewater-State-University-logo.jpg": "/static/media/Bridgewater-State-University-logo.c4f16b30fa4090d87884.jpg",
+    "static/media/curry-college-logo.png": "/static/media/curry-college-logo.4d4adbb0ffb56221cff2.png",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.9a8e8c03.css.map": "/static/css/main.9a8e8c03.css.map",
+    "main.c8f96456.js.map": "/static/js/main.c8f96456.js.map",
+    "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
+    "487.9779af71.chunk.js.map": "/static/js/487.9779af71.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
+    "990.3ff8cbd3.chunk.js.map": "/static/js/990.3ff8cbd3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a8e8c03.css",
+    "static/js/main.c8f96456.js"
+  ]
+}
